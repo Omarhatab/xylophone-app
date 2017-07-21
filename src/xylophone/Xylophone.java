@@ -189,6 +189,7 @@ public final class Xylophone extends Application {
 
     @Override public void start(Stage primaryStage) throws Exception {
         init(primaryStage);
+        System.out.println(" the app started...");
         primaryStage.show();
     }
 
